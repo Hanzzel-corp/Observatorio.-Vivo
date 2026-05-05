@@ -1203,7 +1203,7 @@ def detect_outbreaks(limit: int = 100) -> List[Dict[str, Any]]:
     - P0: Optimizado para eliminar N+1 queries (3 queries totales en lugar de 3000-4000)
     - P1: Cache en memoria con TTL de 30 segundos
     """
-    global _outbreaks_cache, _outbreaks_cache_ts
+    global _outbreaks_cache_ts
     
     # P1: Verificar cache - solo recalcular si pasaron 30 segundos o cambió el limit
     cache_key = f"outbreaks_{limit}"
