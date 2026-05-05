@@ -1,0 +1,3 @@
+# Este archivo mantiene el directorio data/ en git
+# La base de datos SQLite se genera automáticamente al iniciar
+# NO subir archivos .db a GitHub

@@ -1,0 +1,36 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Base de datos SQLite (datos locales, no compartir)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+*.sqlite3
+
+# Variables de entorno / credenciales
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
