@@ -58,7 +58,8 @@ jobs:
 
       - name: Verify app starts
         run: |
-          timeout 10s python app.py &
-          sleep 5
-          curl -f http://localhost:8000/health || curl -f http://localhost:8000/
+          uvicorn app:app --host 127.0.0.1 --port 8765 &
+          sleep 3
+          curl -f http://localhost:8765/health || curl -f http://localhost:8765/
+          kill %1 || true
         continue-on-error: true
