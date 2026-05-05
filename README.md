@@ -46,6 +46,30 @@
 
 ---
 
+## Capturas de Pantalla
+
+<p align="center">
+  <img src="Radar.png" alt="Radar de Tendencias" width="80%">
+  <br><em>Radar de Tendencias - Visualización de términos emergentes</em>
+</p>
+
+<p align="center">
+  <img src="Bortes.png" alt="Detección de Brotes" width="80%">
+  <br><em>Detección de Brotes - Identificación de fenómenos nacientes</em>
+</p>
+
+<p align="center">
+  <img src="Observacion.png" alt="Bandeja de Observación" width="80%">
+  <br><em>Bandeja de Observación - Seguimiento de términos en análisis</em>
+</p>
+
+<p align="center">
+  <img src="Configuracion.png" alt="Panel de Configuración" width="80%">
+  <br><em>Panel de Configuración - Ajustes del sistema</em>
+</p>
+
+---
+
 ## Arquitectura del Sistema
 
 ### Diagrama de Flujo
