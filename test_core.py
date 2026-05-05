@@ -121,14 +121,14 @@ class TestClassifyOutbreak:
     """Tests para classify_outbreak"""
     
     def test_evento(self):
-        summary = {"term": "evento_test", "regions": 1, "sources": 2, "total_score": 60, "delta": 0.3, "emergency": 80}
+        summary = {"term": "evento_test", "regions": 3, "sources": 3, "runs": 2, "total_score": 60, "delta": 0.3, "emergency": 80, "age_hours": 10}
         result = classify_outbreak(summary)
-        assert result["label"] == "EVENTO"
-    
+        assert result == "EVENTO"
+
     def test_brote(self):
-        summary = {"term": "brote_test", "regions": 3, "sources": 5, "total_score": 100, "delta": 0.8, "emergency": 80}
+        summary = {"term": "brote_test", "regions": 1, "sources": 1, "runs": 2, "total_score": 100, "delta": 0.8, "emergency": 50, "age_hours": 10}
         result = classify_outbreak(summary)
-        assert result["label"] == "BROTE"
+        assert result == "BROTE"
 
 
 if __name__ == "__main__":
