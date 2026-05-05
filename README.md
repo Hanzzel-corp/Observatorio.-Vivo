@@ -1,4 +1,6 @@
-# Observatorio Vivo v6 · Backend Local
+# Observatorio Vivo v0.3.0 · Visual Ranking
+
+> Motor interno: v6.1.2
 
 > 🌐 **English version**: [README_EN.md](README_EN.md)
 
@@ -54,7 +56,7 @@
 </p>
 
 <p align="center">
-  <img src="Bortes.png" alt="Detección de Brotes" width="80%">
+  <img src="Brotes.png" alt="Detección de Brotes" width="80%">
   <br><em>Detección de Brotes - Identificación de fenómenos nacientes</em>
 </p>
 
@@ -370,8 +372,9 @@ observatorio_v6_backend/
 ├── frontend/
 │   └── index.html         # SPA vanilla JS, CSS-in-HTML
 ├── data/
-│   └── observatorio.db    # Base SQLite (persistente)
-│   └── observatorio.log   # Logs estructurados
+│   └── .gitkeep
+│   └── observatorio.db    # Base SQLite (se crea localmente al ejecutar)
+│   └── observatorio.log   # Logs estructurados (se crea localmente si el logging está activo)
 ├── doc/                   # Documentación técnica
 ├── requirements.txt       # Dependencias Python
 ├── run.sh                 # Script de arranque automático
