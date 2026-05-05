@@ -397,6 +397,13 @@ observatorio_v6_backend/
 
 ---
 
+## Contacto
+
+**Autor:** Hanzzel Corp  
+**Email:** hanzzelcorp@gmail.com
+
+---
+
 ## Licencia
 
 Proyecto de código abierto para uso personal e investigación.
