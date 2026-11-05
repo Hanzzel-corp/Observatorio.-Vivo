@@ -1,4 +1,6 @@
-# Live Observatory v6
+# Live Observatory v0.3.0 · Visual Ranking
+
+> Internal engine: v6.1.5 (declared in `app.py`)
 
 > 🌐 **Spanish version available**: [README.md](README.md)
 
@@ -188,12 +190,15 @@ See [doc/run_sh.md - Troubleshooting](doc/run_sh.md#troubleshooting) for more.
 
 ## 📝 Version History
 
+> This history is partial. The application currently declares v6.1.5 in `app.py`; this README does not describe the changes for v6.1.4 or v6.1.5 in detail.
+
 | Version | Key Features |
 |---------|-------------|
 | v6.0.0 | Initial release with core detection |
 | v6.1.0 | Added visual ranking by specificity |
 | v6.1.2 | Improved component suppression, cooldown fixes |
-| **v6.1.3** | **Strict signal traceability from term_hits** |
+| **v6.1.3** | **Strict signal traceability from term_hits**
+| v6.1.5 | Current version declared by the FastAPI application; detailed change notes are not included in this README | |
 
 ---
 
@@ -222,6 +227,6 @@ MIT License - See LICENSE file for details.
 ---
 
 <p align="center">
-  <b>Live Observatory v6.1.3</b><br>
+  <b>Live Observatory v0.3.0 · Engine v6.1.5</b><br>
   <i>Real-time trend detection with traceability</i>
 </p>
