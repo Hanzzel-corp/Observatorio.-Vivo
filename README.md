@@ -1,6 +1,6 @@
 # Observatorio Vivo v0.3.0 · Visual Ranking
 
-> Motor interno: v6.1.2
+> Motor interno: v6.1.5
 
 > 🌐 **English version**: [README_EN.md](README_EN.md)
 
