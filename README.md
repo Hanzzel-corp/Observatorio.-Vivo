@@ -56,7 +56,7 @@
 </p>
 
 <p align="center">
-  <img src="Brotes.png" alt="Detección de Brotes" width="80%">
+  <img src="Bortes.png" alt="Detección de Brotes" width="80%">
   <br><em>Detección de Brotes - Identificación de fenómenos nacientes</em>
 </p>
 
@@ -213,7 +213,7 @@ Esto evita la fragmentación de un mismo fenómeno en múltiples términos.
 ### Método Rápido (Recomendado)
 
 ```bash
-cd observatorio_v6_backend
+cd Observatorio.-Vivo
 chmod +x run.sh
 ./run.sh
 ```
@@ -362,7 +362,7 @@ settings table:
 ## Estructura del Proyecto
 
 ```
-observatorio_v6_backend/
+Observatorio.-Vivo/
 ├── app.py                 # Backend FastAPI (endpoints principales)
 ├── modules/               # Módulos separados
 │   ├── __init__.py
