@@ -14,8 +14,8 @@
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd observatorio_v6_backend
+git clone https://github.com/Hanzzel-corp/Observatorio.-Vivo.git
+cd Observatorio.-Vivo
 
 # Run with automatic script
 ./run.sh
@@ -37,36 +37,25 @@ The dashboard will be available at: **http://127.0.0.1:8765**
 ## **Project Structure**
 
 ```
-observatorio_v6_backend/
-├── app.py                 # FastAPI backend (main endpoints)
-├── modules/               # Separated modules
-│   ├── __init__.py
-│   ├── database.py        # SQLite connection + migrations
-│   └── models.py          # Pydantic models
-├── test_core.py           # Unit tests (pytest)
+Observatorio.-Vivo/
+├── app.py                 # FastAPI backend
+├── cli.py                 # Command-line interface
+├── modules/               # Database and Pydantic models
 ├── frontend/
-│   └── index.html         # Vanilla JS SPA, CSS-in-HTML
+│   └── index.html         # Dashboard SPA
 ├── data/
-│   └── observatorio.db    # SQLite database (persistent)
-│   └── observatorio.log   # Structured logs
-├── doc/                   # Technical documentation
-│   ├── app.md            # Backend documentation
-│   ├── frontend.md       # Frontend documentation
-│   ├── database.md       # Schema and queries
-│   ├── api_reference.md  # API reference
-│   ├── run_sh.md         # Startup script guide
-│   ├── requirements.md   # Dependencies
-│   ├── README.md         # Spanish documentation
-│   └── README_EN.md      # This file (English)
-│   ├── modules.md        # Modularization details
+│   └── .gitkeep           # Local database/logs are created at runtime
+├── doc/                   # Technical documentation (ES/EN)
+├── test_core.py           # Core tests
 ├── requirements.txt       # Python dependencies
-├── run.sh                 # Auto-startup script
+├── run.sh                 # Startup script
+├── Radar.png              # Dashboard screenshot
+├── Bortes.png             # Outbreaks screenshot (filename as stored)
+├── Observacion.png        # Observation screenshot
+├── Configuracion.png      # Configuration screenshot
 ├── README.md              # Spanish README
-└── README_EN.md           # English README (this file)
-├── requirements.txt       ← Python dependencies
-├── run.sh                 ← Auto-start script
-├── README.md              ← Spanish README
-└── README_EN.md           ← English README (this file)
+├── README_EN.md           # English README
+└── LICENSE
 ```
 
 ---
@@ -228,7 +217,7 @@ MIT License - See LICENSE file for details.
 
 - **Issues**: Create GitHub issue for bugs
 - **Questions**: Use Discussions for Q&A
-- **Email**: contact@example.com
+- **Support**: [GitHub Issues](https://github.com/Hanzzel-corp/Observatorio.-Vivo/issues)
 
 ---
 
