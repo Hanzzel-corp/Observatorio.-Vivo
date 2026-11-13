@@ -1,5 +1,7 @@
 # Observatorio Vivo v0.3.0 · Visual Ranking
 
+**Hanzzel Corp · documentación del proyecto:** [Ficha técnica de Observatorio Vivo en Hanzzel Corp](https://hanzzel-corp.github.io/research/observatorio-vivo/)
+
 > Motor interno: v6.1.5
 
 > 🌐 **English version**: [README_EN.md](README_EN.md)
